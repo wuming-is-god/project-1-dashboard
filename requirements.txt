@@ -1,6 +1,19 @@
+# 核心 Web 与可视化框架
 dash
 dash-bootstrap-components
 plotly
+
+# 数据处理
 pandas
-gunicorn
+numpy
+
+# 本地测试服务器 (Windows)
 waitress
+
+# 云端部署服务器 (Linux)
+gunicorn
+
+# 数据清洗与开发
+jupyter
+notebook
+ipykernel

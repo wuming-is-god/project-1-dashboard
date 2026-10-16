@@ -31,10 +31,10 @@
 - [x] 编写 `requirements.txt`（含 dash, plotly, pandas, gunicorn, waitress）
 - [x] 在 `app.py` 中添加 `server = app.server`
 - [x] 本地 Windows 测试 `waitress-serve --port=8050 app:server`
-- [ ] 配置 Render 部署（Build Command, Start Command）
-- [ ] 部署成功，获取在线链接
-- [ ] 将在线链接和截图填入 `README.md`
-- [ ] 编写 `DEPLOY.md` 记录部署过程和排错
+- [x] 配置 Render 部署（Build Command, Start Command）
+- [x] 部署成功，获取在线链接
+- [x] 将在线链接和截图填入 `README.md`
+- [x] 编写 `DEPLOY.md` 记录部署过程和排错
 
 ## M5 博客
 - [ ] 编写 `BLOG.md` 大纲
