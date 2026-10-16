@@ -17,11 +17,11 @@
 - 不涉及中国以外的非国家实体（如需地图，使用国家代码或名称匹配）
 
 ## 4. 成功标准
-- [ ] GitHub 有完整代码和 README
-- [ ] 在线链接可访问
-- [ ] 数据清洗可复现（notebook + DATA.md）
-- [ ] 看板至少 5 个图表/组件，且与数据匹配
-- [ ] 博客发布并链接到 README
+- [x] GitHub 有完整代码和 README
+- [x] 在线链接可访问
+- [x] 数据清洗可复现（notebook + DATA.md）
+- [x] 看板至少 5 个图表/组件，且与数据匹配
+- [x] 博客发布并链接到 README
 
 ## 5. 数据
 **来源**：书籍《Pandas》附带数据集 `project-1-dashboard/data/gapminder.tsv`
@@ -60,36 +60,36 @@ country, continent, year, lifeExp, pop, gdpPercap
 
 ## 7. 里程碑（带完成定义）
 ### M1 数据清洗
-- [ ] `data/raw/gapminder.tsv` 存在，正确读取
-- [ ] `notebooks/01_clean.ipynb` 可从头跑到尾无报错
-- [ ] 输出 `data/clean/gapminder_clean.csv`
-- [ ] `DATA.md` 字段字典、清洗规则、缺失处理决策全部填写
-- [ ] 清洗前后对比：行数、列数、缺失值数量
+- [x] `data/raw/gapminder.tsv` 存在，正确读取
+- [x] `notebooks/01_clean.ipynb` 可从头跑到尾无报错
+- [x] 输出 `data/clean/gapminder_clean.csv`
+- [x] `DATA.md` 字段字典、清洗规则、缺失处理决策全部填写
+- [x] 清洗前后对比：行数、列数、缺失值数量
 
 ### M2 可视化
-- [ ] 至少 4 类图：折线图、柱状图、散点图、地图
-- [ ] 每张图保存 PNG 到 `assets/`
-- [ ] `DASHBOARD.md` 图表清单填写完整
-- [ ] 每张图能一句话说明“回答什么问题”
+- [x] 至少 4 类图：折线图、柱状图、散点图、地图
+- [x] 每张图保存 PNG 到 `assets/`
+- [x] `DASHBOARD.md` 图表清单填写完整
+- [x] 每张图能一句话说明“回答什么问题”
 
 ### M3 Dash 看板
-- [ ] `app.py` 本地 `python app.py` 可运行
-- [ ] 至少 3 个筛选器（年份、大洲、指标） + 5 个图表/组件
-- [ ] 回调联动正常，无循环报错
-- [ ] 启动时读一次 CSV，不重复读
+- [x] `app.py` 本地 `python app.py` 可运行
+- [x] 至少 3 个筛选器（年份、大洲、指标） + 5 个图表/组件
+- [x] 回调联动正常，无循环报错
+- [x] 启动时读一次 CSV，不重复读
 
 ### M4 部署
-- [ ] `requirements.txt` 包含 dash/plotly/pandas/gunicorn
-- [ ] `app.py` 有 `server = app.server`
-- [ ] 本地 `gunicorn app:server` 测试通过
-- [ ] Render/Railway 在线链接可访问
-- [ ] 链接填进 `README.md`
-- [ ] `DEPLOY.md` 记录部署命令和排错
+- [x] `requirements.txt` 包含 dash/plotly/pandas/gunicorn
+- [x] `app.py` 有 `server = app.server`
+- [x] 本地 `gunicorn app:server` 测试通过
+- [x] Render/Railway 在线链接可访问
+- [x] 链接填进 `README.md`
+- [x] `DEPLOY.md` 记录部署命令和排错
 
 ### M5 博客
-- [ ] `BLOG.md` 大纲完成
-- [ ] 博客发布（掘金/知乎/个人站）
-- [ ] 博客链接填进 `README.md`
+- [x] `BLOG.md` 大纲完成
+- [x] 博客发布（掘金/知乎/个人站）
+- [x] 博客链接填进 `README.md`
 
 ## 8. 风险
 | 风险 | 概率 | 影响 | 应对 |
